@@ -1,0 +1,66 @@
+.inline-block {
+    display: inline-block;
+}
+
+.margin-right {
+    margin-right: 5rem;
+}
+
+.graph {
+    width: 100%;
+    display: grid;
+    gap: 1rem;
+}
+
+.graph-point {
+    text-align: center;
+    font-size: 2rem;
+    background-color: rgb(146, 246, 238);
+}
+
+.graph-point--vizited {
+    background-color: red;
+}
+
+.graph-point--result {
+    background-color: rgb(219, 128, 241);
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form div{
+    width: 50%;
+    margin: 2rem 0;
+    display: flex;
+    justify-content: space-between;
+    font-size: 2rem;
+}
+.form__input{
+    padding: 0.5rem;
+    font-size: 2rem;
+    margin-left: 1rem;
+}
+
+.form__submit {
+    width: 50%;
+    color: rgb(86, 193, 226);
+    background-color: #fff;
+    border: 1px solid black;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+.form__cansel {
+    width: 50%;
+    color: red;
+    background-color: #fff;
+    border: 1px solid black;
+    font-size: 2rem;
+
+}
+
+.form__result pre{
+    margin: 0 auto;
+}

@@ -60,7 +60,11 @@
     font-size: 2rem;
 
 }
-
+.form__result .form__div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
 .form__result pre{
     margin: 0 auto;
 }
